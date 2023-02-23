@@ -16,6 +16,7 @@ screen -d -m -S UI ./test04;
 while a==1 ; do
 ./test0102.sh;
 ./testGrep02.sh ;
+./test09.sh;
 date +"%D"
 echo -e "\e[1;32m IPs Conectados:"
 column logs/iplogB.txt
